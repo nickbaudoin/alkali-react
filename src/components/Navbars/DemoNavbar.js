@@ -171,6 +171,13 @@ class DemoNavbar extends React.Component {
                       </div>
                     </DropdownMenu>
                   </UncontrolledDropdown>
+                  <NavLink
+                    href="/clients"
+                  >
+                    <span className="nav-link-inner--text">
+                      Clients
+                      </span>
+                  </NavLink>
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
