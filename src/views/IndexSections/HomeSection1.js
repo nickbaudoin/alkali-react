@@ -18,7 +18,7 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Container, Row, Col, Badge, CardImg, Card } from "reactstrap";
+import { Button, Container, Row, Col, CardImg, Card } from "reactstrap";
 
 class Hero extends React.Component {
   render() {
