@@ -48,7 +48,7 @@ class HeroOriginal extends React.Component {
                       Clients
                     </h1>
                     <p className="lead text-white">
-                      Learn more about some of the people we have had the pleasure to serve!
+                      Learn more about some of the people we have had the pleasure to serve!!
                     </p>
                     <div className="btn-wrapper mt-5">
                     </div>
