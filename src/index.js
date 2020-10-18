@@ -50,6 +50,7 @@ ReactDOM.render(
         exact
         render={props => <Register {...props} />}
       />
+      <Route path="/clients-page" exact render={props => <Clients {...props} />} />
       <Route
         path="/clients-page"
         exact
