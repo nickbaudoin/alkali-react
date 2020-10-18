@@ -18,7 +18,7 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Container, Row, Col } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
 class HeroOriginal extends React.Component {
   render() {
@@ -48,7 +48,7 @@ class HeroOriginal extends React.Component {
                       Clients
                     </h1>
                     <p className="lead text-white">
-                      Learn more about some of the people we have had the pleasure to serve!!
+                      Learn more about some of the people we have had the pleasure to serve!
                     </p>
                     <div className="btn-wrapper mt-5">
                     </div>
@@ -75,30 +75,22 @@ class HeroOriginal extends React.Component {
             </div>
           </section>
         </div>
-        <section>
-          <div class="row">
-            <div class="col">
-              <center>
-                <img src="https://alkalidesigns.com/wp-content/uploads/2019/06/Blue-Collar-Client-Logo.png"></img>
-              </center>
-            </div>
-            <div class="col">
-              <center>
-                Tests
-                </center>
-            </div>
-            <div class="col">
-              <center>
-                Tests
-                </center>
-            </div>
-            <div class="col">
-              <center>
-                Tests
-                </center>
-            </div>
-          </div>
-        </section>
+        <Container>
+          <Row>
+            <Col>
+              <img src={'https://alkalidesigns.com/wp-content/uploads/2019/06/Blue-Collar-Client-Logo.png'} alt="" style={{ maxWidth: "300px" }} />
+            </Col>
+            <Col>
+              <img src={'https://alkalidesigns.com/wp-content/uploads/2019/06/Blue-Collar-Client-Logo.png'} alt="" style={{ maxWidth: "300px" }} />
+            </Col>
+            <Col>
+              <img src={'https://alkalidesigns.com/wp-content/uploads/2019/06/Blue-Collar-Client-Logo.png'} alt="" style={{ maxWidth: "300px" }} />
+            </Col>
+            <Col>
+              <img src={'https://alkalidesigns.com/wp-content/uploads/2019/06/Blue-Collar-Client-Logo.png'} alt="" style={{ maxWidth: "300px" }} />
+            </Col>
+          </Row>
+        </Container>
       </>
     );
   }
