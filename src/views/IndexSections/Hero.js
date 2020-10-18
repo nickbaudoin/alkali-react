@@ -26,18 +26,8 @@ class Hero extends React.Component {
       <>
         <div className="position-relative">
           {/* shape Hero */}
-          <section className="section section-lg section-shaped pb-250">
-            <div className="shape shape-style-1 shape-default">
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-            </div>
+          <section className="section section-lg section-shaped pb-250" style={{ backgroundColor: "#00baff" }}>
+
             <Container className="py-lg-md d-flex">
               <div className="col px-0">
                 <Row>
@@ -58,9 +48,9 @@ class Hero extends React.Component {
                         href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
                       >
                         <span className="btn-inner--icon mr-1">
-                          <i className="ni ni-cloud-download-95" />
+                          <i className="ni ni-send" style={{ color: "#00baff" }} />
                         </span>
-                        <span className="btn-inner--text" style={{ color: "#757575" }}>
+                        <span className="btn-inner--text" style={{ color: "#595153" }}>
                           Contact Us
                           </span>
                       </Button>
@@ -99,10 +89,10 @@ class Hero extends React.Component {
                         <div className="icon icon-shape icon-shape-primary rounded-circle mb-4" style={{ backgroundColor: "#00baff", color: "#ffffff" }}>
                           <i className="ni ni-check-bold" />
                         </div>
-                        <h6 className="text text-uppercase" style={{ color: "#757575" }}>
+                        <h6 className="text text-uppercase" style={{ color: "#2b2728" }}>
                           Download Argon
                           </h6>
-                        <p className="description mt-3">
+                        <p className="description mt-3" style={{ color: "#595153" }}>
                           Argon is a great free UI package based on Bootstrap
                           4 that includes the most important components and
                           features.
@@ -132,13 +122,13 @@ class Hero extends React.Component {
                   <Col lg="4">
                     <Card className="card-lift--hover shadow border-0">
                       <CardBody className="py-5">
-                        <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                        <div className="icon icon-shape icon-shape-success rounded-circle mb-4" style={{ backgroundColor: "#00baff", color: "#ffffff" }}>
                           <i className="ni ni-istanbul" />
                         </div>
-                        <h6 className="text-success text-uppercase">
+                        <h6 className="text text-uppercase" style={{ color: "#2b2728" }}>
                           Build Something
                           </h6>
-                        <p className="description mt-3">
+                        <p className="description mt-3" style={{ color: "#595153" }}>
                           Argon is a great free UI package based on Bootstrap
                           4 that includes the most important components and
                           features.
@@ -168,13 +158,13 @@ class Hero extends React.Component {
                   <Col lg="4">
                     <Card className="card-lift--hover shadow border-0">
                       <CardBody className="py-5">
-                        <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                        <div className="icon icon-shape icon-shape-warning rounded-circle mb-4" style={{ backgroundColor: "#00baff", color: "#ffffff" }}>
                           <i className="ni ni-planet" />
                         </div>
-                        <h6 className="text-warning text-uppercase">
+                        <h6 className="text text-uppercase" style={{ color: "#2b2728" }}>
                           Prepare Launch
                           </h6>
-                        <p className="description mt-3">
+                        <p className="description mt-3" style={{ color: "#595153" }}>
                           Argon is a great free UI package based on Bootstrap
                           4 that includes the most important components and
                           features.
