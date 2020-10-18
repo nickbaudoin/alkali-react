@@ -50,7 +50,11 @@ ReactDOM.render(
         exact
         render={props => <Register {...props} />}
       />
-      <Route path="/clients" exact render={props => <Clients {...props} />} />
+      <Route
+        path="/clients"
+        exact
+        render={props => <Clients {...props} />}
+      />
       <Redirect to="/" />
     </Switch>
   </BrowserRouter>,
